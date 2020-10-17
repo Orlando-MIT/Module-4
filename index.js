@@ -14,9 +14,6 @@ _app.get('/', function(request,response,next){
 _app.get('/sayhello/:name', function(request,response,next){
     response.send(`Hello ${request.params.name} from Docker!`); 
 });
-
-
-// 
 _app.get('/saygoodbye/:name', function(request,response,next){
     response.send(`Goodbye ${request.params.name} from Docker!`); 
 });
