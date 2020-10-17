@@ -18,6 +18,11 @@ _app.get('/sayhello/:name', function(request,response,next){
 });
 
 
+// 
+_app.get('/saygoodbye/:name', function(request,response,next){
+    response.send(`Goodbye ${request.params.name} from Docker!`); 
+});
+
 // Application Configuration
 _app.listen(_port,function(){
     console.log(`Log - ${ new Date().toLocaleDateString() } - Server is Up and running on port: ${_port}`)
