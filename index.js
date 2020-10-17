@@ -5,8 +5,6 @@ var _express = require('express');
 var _app = _express();
 var _port = 9090;
 
-
-
 // Application Default Endpoint
 _app.get('/', function(request,response,next){
     response.send('Hello World from Docker!'); 
