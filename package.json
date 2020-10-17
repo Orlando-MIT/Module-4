@@ -1,0 +1,14 @@
+{
+  "name": "activity-1-code",
+  "version": "1.0.0",
+  "description": "activity 1 of the module 3 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orlando Morales",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
